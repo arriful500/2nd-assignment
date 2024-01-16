@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,700;0,800;1,400&display=swap');
+
+body {
+  font-family: 'Mulish', sans-serif;
+
+}
+
+
+/* this is header section */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 52px;
+  margin-left: auto;
+  margin-right: auto;
+  /* max-width: 1170px; */
+}
+
+.nav-section2 {
+  display: flex;
+
+}
+
+nav img {
+  width: 3rem;
+  margin-right: 1rem;
+  margin-left: 100px;
+}
+
+ul,
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-right: 2.7rem;
+
+}
+
+.home {
+  color: #FF5400;
+  font-family: Mulish;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.common-style {
+  color: #424247;
+  font-size: 18px;
+
+  font-weight: 400;
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-title {
+  padding-left: 1rem;
+}
+
+.Travel {
+  color: #FF5400;
+  font-family: Mulish;
+  font-size: 2.2rem;
+
+  font-weight: 800;
+  line-height: normal;
+}
+
+.hero {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/* this is banner section */
+.banner {
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Group\ 13\ \(1\)\ \(1\).png);
+  max-width: 1170PX;
+  height: 500PX;
+  margin: auto;
+  border-radius: 1rem;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.banner-content {
+  padding: 106px 287px 0 287px;
+}
+
+form {
+  width: 768px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  gap: 24px;
+}
+
+.banner-title {
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: normal;
+}
+
+form {
+  max-width: 768px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  gap: 24px;
+
+}
+
+.common-class {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #FFF;
+  margin: 1rem;
+  text-align: center;
+  color: rgba(19, 19, 24, 0.50);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.search-btn {
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #FF5400;
+}
+
+.bannerP {
+  color: #FFF;
+
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* seciton-2 */
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 53px;
+}
+
+.section2-img {
+  width: 540px;
+  height: 550px;
+  border-radius: 1rem;
+  padding: 80px;
+
+}
+
+.section2-description {
+  padding-left: 80px;
+}
+
+.section3-title {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: normal;
+
+}
+
+.section3P {
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.img-serial1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-right: 135px;
+  padding-left: 80px;
+  gap: 24px;
+  margin-top: 3rem;
+}
+
+.img-serial2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-right: 135px;
+  padding-left: 80px;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.img-serial3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-right: 135px;
+  padding-left: 80px;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.section4 {
+  max-width: 1440px;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+.sectioin4-description {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.hotel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 48px;
+  padding-right: 135px;
+  padding-left: 80px;
+}
+
+.hotel1-img {
+  width: 50px;
+  height: 50px;
+}
+
+.price {
+  margin-top: 24px;
+}
+
+
+.hotel1 {
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  text-align: start;
+  padding: 32px 55px 32px 32px;
+}
+
+.service {
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+  text-align: start;
+  padding: 32px 55px 32px 32px;
+}
+
+.price {
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+  margin-left: 433px;
+  margin-right: 434px;
+  text-align: start;
+  padding: 32px 55px 32px 32px;
+}
+
+.hotel1P {
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.hotel1-title {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.section5 {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  text-align: ;
+
+
+}
+
+.section5-img {
+  margin-left: 135px;
+  width: 672px;
+  height: 422px;
+}
+
+input {
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+}
+
+.section5P {
+  color: #131318;
+  font-family: Mulish;
+  max-width: 1440px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.Save {
+  width: 200px;
+  height: 100px;
+  transform: rotate(-19.628deg);
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #FF5400;
+  /* margin-bottom: 200px; */
+  padding: 5px;
+}
+
+
+
+
+
+.foter-container {
+  max-width: 1440px;
+  height: 502px;
+  margin: auto;
+  text-align: center;
+  background: rgba(19, 19, 24, 0.05);
+
+}
+
+
+.foter-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 110px;
+  text-align: center;
+  gap: 1rem;
+}
+
+.foter-section2P {
+  text-align: center;
+}
+
+
+.foter-section3-img {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+  padding-bottom: 50px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.img1 {
+  width: 2rem;
+  height: 24px;
+}
+
+.img2 {
+  width: 2rem;
+  height: 24px;
+}
+
+.img3 {
+  width: 2rem;
+  height: 24px;
+}
+
+.last {
+  text-align: center;
+  padding-top: 50px;
+  max-width: 1440px;
+
+  margin: auto;
+}
