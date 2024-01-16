@@ -240,6 +240,15 @@ form {
 
 }
 
+.section4-title {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: normal;
+}
+
 .sectioin4-description {
   text-align: center;
   margin-top: 24px;
@@ -319,7 +328,9 @@ form {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-  text-align: ;
+  text-align: center;
+
+
 
 
 }
@@ -343,6 +354,15 @@ input {
   max-width: 1440px;
   font-weight: 800;
   line-height: normal;
+
+}
+
+.section5-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 400px;
+  text-align: start;
 }
 
 .Save {
@@ -352,10 +372,18 @@ input {
   flex-shrink: 0;
   border-radius: 16px;
   background: #FF5400;
-  /* margin-bottom: 200px; */
+  margin-bottom: 200px;
   padding: 5px;
+  color: white;
 }
 
+.subscribe {
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: #FF5400;
+  color: #FFF;
+}
 
 
 
