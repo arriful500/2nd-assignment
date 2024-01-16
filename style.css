@@ -15,7 +15,7 @@ nav {
   margin-top: 52px;
   margin-left: auto;
   margin-right: auto;
-  /* max-width: 1170px; */
+  max-width: 1440px;
 }
 
 .nav-section2 {
@@ -172,6 +172,7 @@ form {
   align-items: center;
   margin-top: 2rem;
   gap: 53px;
+  max-width: 1440px;
 }
 
 .section2-img {
@@ -184,6 +185,9 @@ form {
 
 .section2-description {
   padding-left: 80px;
+}
+.section3{
+  max-width: 1440px;
 }
 
 .section3-title {
@@ -335,10 +339,11 @@ form {
 }
 
 .section5-img {
-  margin-left: 140px;
+  /* margin-left: 200px; */
   width: 672px;
   height: 422px;
   margin-top: 125px;
+  padding-right: 135px;
 }
 
 input {
