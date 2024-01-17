@@ -454,3 +454,32 @@ input {
 
   margin: auto;
 }
+
+@media screen and (max-width:600px) {
+
+  .nav-container{
+    flex-direction: column;
+  }
+  .nav-section2{
+    flex-direction: column;
+  }
+  ul{
+    flex-direction: column;
+  }
+  .section2{
+    flex-direction: column;
+  }
+  .section2-description{
+    flex-direction: column;
+  }
+  form{
+    flex-direction: column;
+  }
+  .banner-content ,.section5 ,.hotel1{
+    text-align: center;
+
+  }
+  .img-serial1 .img-serial2.img-serial3{
+    grid-template-columns: repeat(0,1fr);
+  }
+}
