@@ -475,7 +475,7 @@ input {
   form{
     flex-direction: column;
   }
-  .banner-content ,.section5 ,.hotel1{
+  .banner-content ,.section5 ,.hotel{
     text-align: center;
 
   }
