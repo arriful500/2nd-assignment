@@ -482,4 +482,8 @@ input {
   .img-serial1 .img-serial2.img-serial3{
     grid-template-columns: repeat(0,1fr);
   }
+  .section5,.section5-form{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
